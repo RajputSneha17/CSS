@@ -163,24 +163,34 @@ footer>a{
   }
   
   .input-button>button{
-      padding: 20px 70px;
-      border-radius: 20px;
-      background-color: rgb(60, 91, 216);
-      border: none;
-      box-sizing: border-box;
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 90px;
+    border-radius: 20px;
+    background-color: rgb(60, 91, 216);
+    border: none;
+    box-sizing: border-box;
+    color: white; /* Ensure text color is set */
+    
   }
   
   .input-button>input{
-      background-color: transparent;
-      border: none;
-      border-bottom: 2px solid rgb(54, 165, 210);
-      flex: 2;
-      padding: 10px;
-      box-shadow: none;
-      outline: none;
-      color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(54, 165, 210);
+    flex: 2;
+    padding: 10px;
+    box-shadow: none;
+    outline: none;
+    color: white; /* Ensure input text color is visible */
   }
   
   .input-button>button>i{
-    box-sizing: border-box;
+    margin-left: 6px;
+  }
+
+  .pera p {
+    color: black; /* Ensure paragraph text is visible */
   }
